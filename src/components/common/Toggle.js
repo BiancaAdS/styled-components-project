@@ -2,7 +2,6 @@ import React from "react";
 
 import styled from "styled-components";
 
-
 const ToggleWrapper = styled.div`
     width: 50px;
     min-width: 50px;

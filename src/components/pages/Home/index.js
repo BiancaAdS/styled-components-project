@@ -1,7 +1,6 @@
 import React from "react";
 import { PageLayout } from "components/common";
 
-
 export const Home = () => {
 
     return(
@@ -37,7 +36,6 @@ export const Home = () => {
                 pabst post-ironic hell of. Crucifix artisan celiac mixtape, mustache letterpress tilde gentrify distillery live-edge woke
                 meh shaman everyday carry.
             </p>
-            
         </PageLayout>
     )
 }

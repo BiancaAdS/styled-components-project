@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { PasswordInputStyled, PasswordInputWrapper, ToggleButton } from "./style";
 
-
-
-
 export const PasswordInput = (props) => {
 
     const [showPassword, setShowPassword] = useState(true) 
