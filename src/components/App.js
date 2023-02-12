@@ -1,9 +1,9 @@
 import React, { useState } from "react";
+import { BrowserRouter } from "react-router-dom";
+
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Login } from "./pages/Login";
-import { Home } from "./pages/Home";
+import { RoutesApp } from "routes";
 
 import LightTheme from 'themes/light'
 import DarkTheme from 'themes/dark'
@@ -29,10 +29,7 @@ function App() {
       }}}>
         <GlobalStyle/>
         <BrowserRouter>
-            <Routes>
-              <Route path="/login" element={<Login />} />
-              <Route path="/" element={<Home />} />
-            </Routes>
+           <RoutesApp/>
         </BrowserRouter>
       </ThemeProvider>
   );
