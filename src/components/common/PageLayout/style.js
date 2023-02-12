@@ -1,10 +1,7 @@
-import React from "react";
-
-import { Header } from "./Header";
 
 import styled from "styled-components";
 
-const Content = styled.main`
+export const Content = styled.main`
 
     max-width: 800px;
     margin: 80px auto 0 auto;
@@ -16,13 +13,3 @@ const Content = styled.main`
         font-family: 'Kaushan Script';
     }
 `
-
-
-export const PageLayout = ({children}) => {
-    return(
-        <>
-            <Header/>
-            <Content>{children}</Content>
-        </>
-    )
-}
